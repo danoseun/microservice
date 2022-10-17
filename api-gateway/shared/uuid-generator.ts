@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid';
 
-export const generateJobID = (prefix='job') => {
-    const id = nanoid(31);
-    return `${prefix}_${id}`;
+export const generateJobID = () => {
+    const id = `job_${nanoid(17)}`;
+    return JSON.stringify(id);
 };
