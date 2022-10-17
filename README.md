@@ -2,7 +2,6 @@
 https://user-images.githubusercontent.com/29859025/196181844-f2eeded4-bb0b-4d30-8895-53e82bec0169.mp4
 
 ## Description
-
 This app demos how microservices work. Request is received from the client via http(api-gateway) and internal communication is done via kafka workers.
 
 ## Instructions
