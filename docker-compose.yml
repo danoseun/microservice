@@ -34,7 +34,7 @@ services:
       - '.:/service'
       - '/frontend/node_modules'
     ports:
-      - 1552:1552
+      - 3001:3001
   email-service:
     container_name: email-service
     build:
